@@ -22,7 +22,7 @@ continueButton.MouseButton1Click:Connect(function()
 	currentIndex += 1
 	if currentIndex > #frameList then
 		gui.Enabled = false
-		ReplicatedStorage:WaitForChild("StoryRemoteEvent"):FireServer()
+		ReplicatedStorage:WaitForChild("Shared"):WaitForChild("StoryRemoteEvent"):FireServer()
 	else
 		showFrame(currentIndex)
 	end
@@ -30,7 +30,7 @@ end)
 
 skipButton.MouseButton1Click:Connect(function()
 	gui.Enabled = false
-	ReplicatedStorage:WaitForChild("StoryRemoteEvent"):FireServer()
+	ReplicatedStorage:WaitForChild("Shared"):WaitForChild("StoryRemoteEvent"):FireServer()
 end)
 
 showFrame(currentIndex)

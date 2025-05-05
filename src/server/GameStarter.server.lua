@@ -1,5 +1,5 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local remote = ReplicatedStorage:WaitForChild("StoryRemoteEvent")
+local remote = ReplicatedStorage:WaitForChild("Shared"):WaitForChild("StoryRemoteEvent")
 
 remote.OnServerEvent:Connect(function(player)
 	local spawn = workspace:WaitForChild("PlayerSpawnAfterStory")
