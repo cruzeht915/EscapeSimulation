@@ -9,6 +9,16 @@
           "$path": "src/shared"
         }
       },
+
+      "Workspace": {
+        "$className": "Workspace",
+        "PlayerSpawnAfterStory": {
+            "$path": "game/Workspace/PlayerSpawnAfterStory.rbxmx"
+        },
+        "ObstacleCourse": {
+            "$path": "game/Workspace/ObstacleCourse.rbxmx"
+        }
+      },
   
       "ServerScriptService": {
         "$className": "ServerScriptService",
