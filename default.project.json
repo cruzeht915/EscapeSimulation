@@ -10,6 +10,13 @@
         }
       },
 
+      "StarterGui": {
+        "$className": "StarterGui",
+        "StoryScreenGui": {
+            "$path": "src/client/UI/StoryScreenGui.rbxmx"
+        }
+      },
+
       "Workspace": {
         "$className": "Workspace",
         "PlayerSpawnAfterStory": {

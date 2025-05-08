@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="ScreenGui" referent="RBX48b8bf3e604b4a8baa27a8c0a5893883">
+	<Item class="ScreenGui" referent="RBX6e1a69ff17ba4047b4874147b3a65887">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<bool name="AutoLocalize">true</bool>
@@ -12,7 +12,7 @@
 			<int name="DisplayOrder">0</int>
 			<bool name="Enabled">true</bool>
 			<string name="Name">StoryScreenGui</string>
-			<bool name="ResetOnSpawn">true</bool>
+			<bool name="ResetOnSpawn">false</bool>
 			<Ref name="RootLocalizationTable">null</Ref>
 			<token name="SafeAreaCompatibility">1</token>
 			<token name="ScreenInsets">2</token>
@@ -25,7 +25,7 @@
 			<BinaryString name="Tags"></BinaryString>
 			<token name="ZIndexBehavior">1</token>
 		</Properties>
-		<Item class="TextButton" referent="RBXdfbf17e2ee67431e8d6ebcaf4add88ea">
+		<Item class="TextButton" referent="RBXcf7e56b82ac948138682b1d345d25fab">
 			<Properties>
 				<bool name="Active">true</bool>
 				<Vector2 name="AnchorPoint">
@@ -122,10 +122,10 @@
 				<token name="TextXAlignment">2</token>
 				<token name="TextYAlignment">1</token>
 				<bool name="Visible">true</bool>
-				<int name="ZIndex">1</int>
+				<int name="ZIndex">3</int>
 			</Properties>
 		</Item>
-		<Item class="Folder" referent="RBX035ee4d3f7b74aa880534a531de3f3ea">
+		<Item class="Folder" referent="RBX033847aeb49542cc8bf511466493f513">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -134,7 +134,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Frame" referent="RBXa6e30d0351c543778657d6a55bc3e99a">
+			<Item class="Frame" referent="RBXe1f9b9c449ba4564a0b935858d7d7010">
 				<Properties>
 					<bool name="Active">false</bool>
 					<Vector2 name="AnchorPoint">
@@ -197,7 +197,7 @@
 					<bool name="Visible">false</bool>
 					<int name="ZIndex">1</int>
 				</Properties>
-				<Item class="TextLabel" referent="RBX801875743bf64d6a8760fd37fae2a712">
+				<Item class="TextLabel" referent="RBX65f362859a47463b8fa49a5a96018dce">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -291,7 +291,7 @@
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
-				<Item class="ImageLabel" referent="RBXe75e73ddedbf462e9c4e235911549303">
+				<Item class="ImageLabel" referent="RBXf15d006e57f74181a018c1efadd21826">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -389,7 +389,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Frame" referent="RBX468c585575c74f89a6228f8f557445e6">
+			<Item class="Frame" referent="RBXa94628247ec74e04aa338f8583d4f58b">
 				<Properties>
 					<bool name="Active">false</bool>
 					<Vector2 name="AnchorPoint">
@@ -452,7 +452,7 @@
 					<bool name="Visible">false</bool>
 					<int name="ZIndex">1</int>
 				</Properties>
-				<Item class="TextLabel" referent="RBX6ebc53fccdae4c14a09b997c5e1d14c5">
+				<Item class="TextLabel" referent="RBX455ab604f7c94ac98f480e28a3d9ba55">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -546,7 +546,7 @@
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
-				<Item class="ImageLabel" referent="RBX9a3917403d0d41108c34760cf48846be">
+				<Item class="ImageLabel" referent="RBX9d048dab021c49b494155597cb56c29a">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -644,7 +644,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Frame" referent="RBX98a44c3e77dc4369bf621886054419bd">
+			<Item class="Frame" referent="RBX6f0fe35220584b6fb4ba473449b07faf">
 				<Properties>
 					<bool name="Active">false</bool>
 					<Vector2 name="AnchorPoint">
@@ -707,7 +707,7 @@
 					<bool name="Visible">false</bool>
 					<int name="ZIndex">1</int>
 				</Properties>
-				<Item class="TextLabel" referent="RBXedf1396da43147d9a68206f0c2d3ce65">
+				<Item class="TextLabel" referent="RBXb3c81abaa990499c8a1dcaca1923151c">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -801,7 +801,7 @@
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
-				<Item class="ImageLabel" referent="RBX74758ecdecfb48bdaa9d24f7e4692924">
+				<Item class="ImageLabel" referent="RBXf7679816ccc640429a4a7a16a2b0ac17">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -899,7 +899,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Frame" referent="RBX73344313344746db9780b407cdcb0699">
+			<Item class="Frame" referent="RBXc1901ed7816f420fad53916b82d71eb6">
 				<Properties>
 					<bool name="Active">false</bool>
 					<Vector2 name="AnchorPoint">
@@ -962,7 +962,7 @@
 					<bool name="Visible">false</bool>
 					<int name="ZIndex">1</int>
 				</Properties>
-				<Item class="TextLabel" referent="RBX41e492f9935d48ce80e91ccbcb28779a">
+				<Item class="TextLabel" referent="RBX2f05e49dd6174f448943d1aec2dc1e27">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1056,7 +1056,7 @@
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
-				<Item class="ImageLabel" referent="RBXbc9088b6b10e4a0eb87992b4ff5dd53a">
+				<Item class="ImageLabel" referent="RBX509e77ccafb5489e8eeb41a413679acc">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1154,7 +1154,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Frame" referent="RBX66e8a51623d142af84dde44ff9f2dc3b">
+			<Item class="Frame" referent="RBX0f08178a03844038b45ccdfa56ea84e1">
 				<Properties>
 					<bool name="Active">false</bool>
 					<Vector2 name="AnchorPoint">
@@ -1217,7 +1217,7 @@
 					<bool name="Visible">false</bool>
 					<int name="ZIndex">1</int>
 				</Properties>
-				<Item class="ImageLabel" referent="RBXbb68d60411b249188235273e6aa8dac2">
+				<Item class="ImageLabel" referent="RBXd3c1c51897b04c4b809542ae22ab88ed">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1314,7 +1314,7 @@
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
-				<Item class="TextLabel" referent="RBXe883334aef454be181946795bc7e3c0a">
+				<Item class="TextLabel" referent="RBX611669ed7c9844c5bbe104a1ed2d9bbd">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1409,7 +1409,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Frame" referent="RBX1b653056047544029ae5867a091376cd">
+			<Item class="Frame" referent="RBX77129624c82748f98d0c948e50c12176">
 				<Properties>
 					<bool name="Active">false</bool>
 					<Vector2 name="AnchorPoint">
@@ -1472,7 +1472,7 @@
 					<bool name="Visible">false</bool>
 					<int name="ZIndex">1</int>
 				</Properties>
-				<Item class="TextLabel" referent="RBX2786d62fe68648e0b12140e3560acfec">
+				<Item class="TextLabel" referent="RBXfc23651ef9374bc9b43ec0fd08e10200">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1566,7 +1566,7 @@
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
-				<Item class="ImageLabel" referent="RBX89bbff59dfbc4432a7259010206c36d0">
+				<Item class="ImageLabel" referent="RBX99428b725d4c4041a47eccbb99cae24e">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -1665,7 +1665,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item class="TextButton" referent="RBXcac1f265f5ff4992a3e6adf7b2dd0d67">
+		<Item class="TextButton" referent="RBXc392cab4e1684e81894c300d5994eb6d">
 			<Properties>
 				<bool name="Active">true</bool>
 				<Vector2 name="AnchorPoint">
@@ -1762,7 +1762,7 @@
 				<token name="TextXAlignment">2</token>
 				<token name="TextYAlignment">1</token>
 				<bool name="Visible">true</bool>
-				<int name="ZIndex">1</int>
+				<int name="ZIndex">3</int>
 			</Properties>
 		</Item>
 	</Item>
